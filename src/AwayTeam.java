@@ -1,7 +1,10 @@
-public class AwayTeam {
+public class AwayTeam extends Team{
+
 
     public AwayTeam() {
-        super();
+
+        super("Whales");
+
     }
 
 }

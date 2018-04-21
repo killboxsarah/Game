@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import java.util.Random;
 
 import static org.junit.Assert.*;
 
@@ -15,7 +16,7 @@ public class GameTest {
         team1 = new HomeTeam();
         team2 = new AwayTeam();
         testGame = new Game(team1, team2);
-        System.out.println(team1.toString() + " is playing the " + team2.toString() + " at Ford Field today.");
+
     }
 
     @Test
@@ -25,6 +26,11 @@ public class GameTest {
         testGame.switchPossession();
         currentTeamWPossession = testGame.queryPossession();
         assertEquals(team2, currentTeamWPossession);
+    }
+
+    @Test
+    public void coingFlipTest() {
+        testGame.homeTeamWinsCoinFlip();
     }
 
     @Test
