@@ -1,5 +1,3 @@
-package Game;
-
 public class Game {
 
     // 4 downs is a turnover

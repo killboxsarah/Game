@@ -1,5 +1,3 @@
-package Game;
-
 import org.junit.Test;
 
 import java.awt.*;
