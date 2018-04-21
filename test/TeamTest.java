@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import java.awt.*;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assexrt.assertEquals;
 
 public class TeamTest {
 
